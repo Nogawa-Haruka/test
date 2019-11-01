@@ -1,0 +1,15 @@
+
+public class CheckLoadDBC {
+	public static void main(String[]args)throws Instantiation Exception,IllegalAccessException{
+		String msg = "";
+
+		try{
+			Class.forNmae("com.mysql.jdbc.Driver").newInstance();
+			msg = "ドライバのロードに成功しました"
+		}catch(ClassNotFoundException e){
+			msg = "ドライバのロードに失敗しました"
+		}
+		System.out.println(msg);
+	}
+
+}

@@ -10,6 +10,7 @@ public class Iphone {
 		iphone.mail();
 		iphone.photo();
 		iphone.internet();
+		iphone.internet2();
+		iphone.back2();
 	}
-
 }

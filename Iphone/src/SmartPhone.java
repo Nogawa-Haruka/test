@@ -1,3 +1,4 @@
+
 public class SmartPhone extends Mp3Player{
 	public void play(){
 		System.out.println("再生(ハイレゾ機能)");
@@ -23,5 +24,4 @@ public class SmartPhone extends Mp3Player{
 	public void internet(){
 		System.out.println("インターネット");
 	}
-
 }

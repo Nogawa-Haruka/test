@@ -6,7 +6,7 @@ public class Phone {
 	public void stop(){
 		System.out.println("停止");
 	}
-	public void nect(){
+	public void next(){
 		System.out.println("次へ");
 	}
 	public void back(){
@@ -16,10 +16,12 @@ public class Phone {
 		System.out.println("電話");
 	}
 	public void mail(){
+		System.out.println("メール");
+	}
+	public void photo(){
 		System.out.println("写真");
 	}
 	public void internet(){
 		System.out.println("インターネット");
 	}
-
 }
