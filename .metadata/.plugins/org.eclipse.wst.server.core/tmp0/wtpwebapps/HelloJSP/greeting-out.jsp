@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<% request.setCharacterEncoding("UTF-8"); %>
+	<%  request.setCharacterEncoding("UTF-8"); %>
 	<p>こんにちは、<%=request.getParameter("user") %>さん！</p>
+
 </body>
 </html>

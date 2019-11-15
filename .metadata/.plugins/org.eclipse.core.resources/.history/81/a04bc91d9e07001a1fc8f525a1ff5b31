@@ -1,0 +1,9 @@
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/WelcomeServlet")
+public class WelcomeServlet extends HttpServlet{
+	public WelcomeServlet(){
+		super();
+	}
+}
