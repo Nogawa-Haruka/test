@@ -1,0 +1,4 @@
+package com.internousedev.login.dto;
+public class LoginDTO{
+	private int id
+}
