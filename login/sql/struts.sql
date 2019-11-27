@@ -1,10 +1,10 @@
 set names utf8;
-set foreign_key_checl = 0;
-drop database if exists logindb nogawa;
+set foreign_key_checks = 0;
+drop database if exists logindb_nogawa;
 create database logindb_nogawa;
 use logindb_nogawa;
 
-create table user{
+create table user(
 id int,
 user_name varchar(255),
 password varchar(255)
