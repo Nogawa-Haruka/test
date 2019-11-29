@@ -8,6 +8,8 @@ import com.internousdev.login.dto.LoginDTO;
 import com.internousdev.login.util.DBConnector;
 
 public class LoginDAO{
+	//LoginDTOを最後に呼び出し元にするから戻り値にしたﾒｿｯﾄﾞ
+	//Actionｸﾗｽの値を引数として受け取る
 	public LoginDTO select(String name,String password)throws SQLException{
 		LoginDTO dto = new LoginDTO();
 		DBConnector db = new DBConnector();
