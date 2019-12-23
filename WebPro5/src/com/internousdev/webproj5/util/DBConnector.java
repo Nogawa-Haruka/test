@@ -1,4 +1,4 @@
-package com.internousdev.webproj4.util;
+package com.internousdev.webproj5.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
