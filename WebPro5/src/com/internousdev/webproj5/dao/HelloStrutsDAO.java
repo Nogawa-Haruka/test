@@ -11,7 +11,7 @@ import com.internousdev.webproj5.dto.HelloStrutsDTO;
 import com.internousdev.webproj5.util.DBConnector;
 
 public class HelloStrutsDAO {
-	List<HelloStrutsDTO> HelloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
+	List<HelloStrutsDTO> helloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
 
 	public List<HelloStrutsDTO> select(){
 		DBConnector db = new DBConnector();
@@ -29,7 +29,7 @@ public class HelloStrutsDAO {
 				dto.setUserName(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
 				dto.setResult("MySQLと接続できます");
-				HelloStrutsDTOList.add(dto);
+				helloStrutsDTOList.add(dto);
 			}
 		}catch(SQLException e){
 			e.printStackTrace();
@@ -39,6 +39,6 @@ public class HelloStrutsDAO {
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
-		return HelloStrutsDTOList;
+		return helloStrutsDTOList;
 	}
 }

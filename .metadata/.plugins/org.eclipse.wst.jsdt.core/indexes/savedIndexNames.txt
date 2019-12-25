@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\testuser.internous-PC\Desktop\workspace\workspace-nogawa\test\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+166887745.index
+368833024.index
+666901964.index
+314332362.index
+4293305724.index
+3183156038.index
