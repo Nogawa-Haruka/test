@@ -14,6 +14,7 @@ public class HelloStrutsAction extends ActionSupport implements SessionAware{
 	private List<HelloStrutsDTO> helloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
 	private Map<String, Object> session;
 
+
 	public String execute(){
 		String ret = ERROR;
 		HelloStrutsDAO dao = new HelloStrutsDAO();

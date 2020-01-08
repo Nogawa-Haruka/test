@@ -11,7 +11,7 @@
 	名前とパスワードを入力してください。
 	<s:form action="LoginAction">
 		<s:textfield name="username" label="ユーザー名"/>
-		<s:password name="passoword" label="パスワード"/>
+		<s:password name="password" label="パスワード"/>
 		<s:submit value="送信"/>
 	</s:form>
 </body>
